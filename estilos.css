@@ -13,6 +13,116 @@
     top: 40px;
 }
 
+.muneco{
+    position: absolute;
+    width: 15%;
+    height: 20%;
+    left: 77.5%;
+    top: 30%;
+    image-rendering: crisp-edges;
+    
+}
+
+.label{
+    position: absolute;
+    width: 15%;
+    height: 20%;
+    left: 77.5%;
+    top: 60%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    /* or 29px */
+    
+    text-align: center;
+    
+    /* Gray/gray-500 */
+    
+    color: #343A40;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.frame{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    
+    position: absolute;
+    width: 15%;
+    height: 5%;
+    left: 20%;
+    top: 70%;
+}
+
+
+@media  (max-width: 1000px ) and (min-width: 700px ) {
+    .muneco{
+        position: absolute;
+        width: 15%;
+        height: 20%;
+        left: 77.5%;
+        top: 15%;
+        image-rendering: crisp-edges;
+        
+    }
+    .label{
+        position: absolute;
+        width: 15%;
+        height: 20%;
+        left: 77.5%;
+        top: 40%;
+    
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 120%;
+        /* or 29px */
+        
+        text-align: center;
+        
+        /* Gray/gray-500 */
+        
+        color: #343A40;
+        
+        
+        /* Inside auto layout */
+        
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+    
+    .frame{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 8px;
+        
+        position: absolute;
+        width: 30%;
+        height: 5%;
+        left: 5%;
+        top: 70%;
+    }
+
+}
+
+
 .rectangulo{
     position: absolute;
     width: 20%;
@@ -29,15 +139,6 @@
     border-radius: 32px;
 }
 
-.muneco{
-    position: absolute;
-    width: 15%;
-    height: 20%;
-    left: 77.5%;
-    top: 30%;
-    image-rendering: crisp-edges;
-    
-}
 
 .textiIngresado{
     position: absolute;
@@ -62,19 +163,6 @@
     border-radius: 10px;
 }
 
-.frame{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 0px;
-    gap: 8px;
-    
-    position: absolute;
-    width: 15%;
-    height: 5%;
-    left: 20%;
-    top: 70%;
-}
 
 
 .boton1{
@@ -154,32 +242,172 @@
     flex-grow: 0;
 }
 
-.label{
-    position: absolute;
-    width: 15%;
-    height: 20%;
-    left: 77.5%;
-    top: 60%;
+@media  (max-width: 700px ) and (min-width: 280px ) {
+    .muneco{
+        position: absolute;
+        width: 20%;
+        height: 20%;
+        left: 38%;
+        top: 110%;
+        image-rendering: crisp-edges;
+        
+    }
+    .label{
+        position: absolute;
+        width: 35%;
+        height: 20%;
+        left: 32.5%;
+        top: 140%;
+    
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 120%;
+        /* or 29px */
+        
+        text-align: center;
+        
+        /* Gray/gray-500 */
+        
+        color: #343A40;
+        
+        
+        /* Inside auto layout */
+        
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+    
+    .frame{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 8px;
+        
+        position: absolute;
+        width: 80%;
+        height: 5%;
+        left: 5%;
+        top: 70%;
+    }
 
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 120%;
-    /* or 29px */
+    .rectangulo{
+        position: absolute;
+        width: 40%;
+        height: 85%;
+        left: 30%;
+        top: 100%;
     
-    text-align: center;
+        /* White */
     
-    /* Gray/gray-500 */
+        background: #808080;
+        /* shadow */
     
-    color: #343A40;
+        box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+        border-radius: 32px;
+    }
+    .boton3{
+        position: absolute;
+        width: 20%;
+        height: 10%;
+        left: 40%;
+        top: 170%;
     
+        display: flex;
+        flex-direction: row;
     
-    /* Inside auto layout */
+        text-align: center;
+        padding: 24px;
+        gap: 8px;   
+        /* Dark blue/dark-blue-300 */
+        
+        background: #0A3871;
+        border-radius: 24px;
+        
+        /* Inside auto layout */
+        
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .textiIngresado{
+        position: absolute;
+        width: 50%;
+        height: 10%;
+        left: 25%;
+        top: 20%;
     
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 150%;
+        background-color:#D3D3D3;
+        /* identical to box height, or 48px */
+    
+        /* Dark blue/dark-blue-300 */
+    
+        color: #0A3871;
+    
+        /* Agregar bordes redondeados */
+        border-radius: 10px;
+    }
+
+    .boton1{
+        position: absolute;
+        width: 30%;
+        height: 10%;
+        left: 10%;
+        top: 80%;
+    
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 24px;
+        gap: 8px;   
+        /* Dark blue/dark-blue-300 */
+        
+        background: #0A3871;
+        border-radius: 24px;
+        
+        /* Inside auto layout */
+        
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    
+    .boton2{
+        position: absolute;
+        width: 30%;
+        height: 10%;
+        left: 60%;
+        top: 80%;
+    
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 24px;
+        gap: 8px;
+        
+        /* Light gray */
+        
+        background: #D8DFE8;
+        /* Dark blue/dark-blue-300 */
+        
+        border: 1px solid #0A3871;
+        border-radius: 24px;
+        
+        /* Inside auto layout */
+        
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+
 }
-
